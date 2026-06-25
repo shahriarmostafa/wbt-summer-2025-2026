@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Registration</h2>
+    <p>Please complete all the fields below</p>
+    <form method="post">
+        <div class="field">
+            <label for="fullname">Full Name</label>
+            <input type="text" name="fullname">
+        </div>
+        <div class="field">
+            <label for="postalcode">Postal Code</label>
+            <input type="number" name="postalcode">
+        </div>
+        <div class="field">
+            <label for="dob">Date of Birth</label>
+            <input type="datetime-local" name="dob">
+        </div>
+        <div class="field">
+            <label for="dob">Email Address</label>
+            <input type="email" name="email">
+        </div>
+        <div class="field">
+            <label for="password">Password</label>
+            <input type="password" name="password">
+        </div>
+        <div class="field">
+            <label for="country">Country</label>
+            <select name="country">
+                <option value="bd">Bangladesh</option>
+                <option value="ind">India</option>
+                <option value="pk">Pakistan</option>
+                <option value="sri">Srilanka</option>
+                <option value="npl">Nepal</option>
+                <option value="bhu">Bhutan</option>
+            </select>
+        </div>
+        <div class="field">
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+        </div>
+    </form>
+</body>
+</html>
